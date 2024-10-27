@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aiohttp-url-shortener"
+version = "0.1.0"
+description = ""
+authors = ["Danil Sidoruk <danilsidoruknv@yandex.ru>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = {extras = ["speedups"], version = "^3.10.10"}
+aiohttp-sqlalchemy = "^1.0.post0"
+aiosqlite = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
